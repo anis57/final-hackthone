@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const ApiClient = axios.create({
-    baseURL: "http://localhost:3000/api",
+    baseURL: "https://final-hackthone-z627.vercel.app/api",
     timeout: 30000,
     headers:{
         "Content-Type": "application/json"
